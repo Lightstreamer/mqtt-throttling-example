@@ -5,9 +5,9 @@ using simulated sensors by [MIMIC MQTT Simulator](https://www.gambitcomm.com/sit
 
 ## Live Demo
 
-[![Live Demo](screen-large.gif)](https://demos.mqtt.cool/mqtt-throttling)
+[![Live Demo](screen-large.gif)](https://demos.lightstreamer.com/mqtt-throttling)
 
-### [![](http://demos.mqtt.cool/resources/play.png) View live demo](https://demos.mqtt.cool/mqtt-throttling)
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](https://demos.lightstreamer.com/mqtt-throttling)
 
 
 ## Details
@@ -16,7 +16,7 @@ The **MQTT Throttling Demo** uses the MQTT.Cool Web Client API to show how
 MQTT.Cool can be used to send real-time telemetry data through the Web and,
 very important, how incoming update flow can be further manipulated in terms of
 bandwidth and frequency.
-You can read more details in the article ["Throttling MQTT Data"](https://mqtt.cool/throttling-mqtt-data/).
+You can read more details in the article ["Throttling MQTT Data"](https://lightstreamer.com/blog/throttling-mqtt-data/).
 
 The demo leverages the flexibility and power offered by [MIMIC MQTT Simulator](https://www.gambitcomm.com/site/mqttsimulator.php),
 by which it is extremely easy to generate an unlimited range of simulated
@@ -41,10 +41,10 @@ subscriptions.
 To make you appreciate the difference between throttled and not-throttled 
 data, two kinds of connection are employed:
 
-- A [shared connection](https://docs.mqtt.cool/server/guides/MQTT.Cool+Getting+Started+Guide.html#shared_connection),
+- A [shared connection](https://lightstreamer.com/mqttcool/server/guides/MQTT.Cool+Getting+Started+Guide.html#shared_connection),
 whose MQTT subscriptions change the update rate according to the frequency 
 slider. Messages are displayed as red points on the charts.
-- A [dedicated connection](https://docs.mqtt.cool/server/guides/MQTT.Cool+Getting+Started+Guide.html#dedicated_connection),
+- A [dedicated connection](https://lightstreamer.com/mqttcool/server/guides/MQTT.Cool+Getting+Started+Guide.html#dedicated_connection),
 whose MQTT subscriptions receive data as they come, which means that any change
 on the sliders does not affect how data flow from the MQTT broker to the web
 page. Messages are displayed as continuous orange lines.
@@ -70,8 +70,8 @@ If you want to install a version of this demo pointing to your local MQTT.Cool,
 follows these steps.
 
 * Download MQTT.Cool from the mqtt.cool web site
-[download page](https://mqtt.cool/download/latest-server) and unpack it (see
-the [Quick Start](https://docs.mqtt.cool/server/guides/MQTT.Cool+Getting+Started+Guide.html#_quick_start) section of *Getting Started Guide* for more details).
+[download page](https://lightstreamer.com/download) and unpack it (see
+the [Quick Start](https://lightstreamer.com/mqttcool/server/guides/MQTT.Cool+Getting+Started+Guide.html#_quick_start) section of *Getting Started Guide* for more details).
 * Launch the MQTT.Cool server.
 * Download this project.
 * As the latest version of the MQTT.Cool JavaScript library is always available
@@ -105,8 +105,8 @@ received real-time metrics.
 
 ## See Also
 
-* [Throttling MQTT Data](https://mqtt.cool/throttling-mqtt-data/)
-* [Check out all other demos on MQTT.Cool site](https://mqtt.cool/demos)
+* [Throttling MQTT Data](https://lightstreamer.com/blog/throttling-mqtt-data/)
+* [Check out all other demos on MQTT.Cool site](https://demos.lightstreamer.com/?p=mqttcool)
 
 ## MQTT.Cool Compatibility Notes
 
